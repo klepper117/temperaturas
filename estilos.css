@@ -1,0 +1,31 @@
+.conversor {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.conversor label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.conversor input,
+.conversor select {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.conversor button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+}
